@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+            rel="stylesheet"
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/css/style.css" />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/charts/chartist-bundle/chartist.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/charts/morris-bundle/morris.css"
+    />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css" />
+    <link
+            rel="stylesheet"
+            href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css"
+    />
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarExample01"
+                    aria-controls="navbarExample01"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="contact">
+    <h1>Contact Us</h1>
+    <p>Fill out the form below to get in touch with us.</p>
+    <form action="submit-form.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email..." required>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number...">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+<br>
+<br>
+
+<div class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                ©MONATECH 2023 -All rights Reserve
+
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="text-md-right footer-links d-none d-sm-block">
+                    <a href="about.html">About</a>
+
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
